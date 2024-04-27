@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UNT Health Center</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  header {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  footer {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  .container {
+    padding: 20px;
+  }
+  .doctor {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+  }
+  form {
+    margin-bottom: 20px;
+  }
+
+  /* Very low contrast colors */
+  a {
+    color: rgb(153, 153, 255);
+    background-color: rgb(0, 102, 0);
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+
+  a:hover {
+    background-color: rgb(51, 153, 51);
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>UNT Health Center</h1>
+  <nav>
+    <a href="#doctors">Doctors</a>
+    <a href="#departments">Departments</a>
+    <a href="#contact">Contact</a>
+    <a href="#signin">Sign In</a>
+  </nav>
+</header>
+<div class="container">
+  <section id="doctors">
+    <h2>Doctors</h2>
+    <div class="doctor">
+      <h3>Dr. Joseph Livingston</h3>
+      <p>Specialty: Cardiologist</p>
+      <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <div class="doctor">
+      <h3>Dr. Jane Smith</h3>
+      <p>Specialty: Gynaecologist</p>
+      <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <div class="doctor">
+      <h3>Diana Joseph</h3>
+      <p>Specialty: Orthodontics</p>
+      <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+  </section>
+  <section id="departments">
+    <h2>Departments</h2>
+    <p>Description of departments...</p>
+  </section>
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Contact information...</p>
+  </section>
+  <section id="signin">
+    <h2>Sign In</h2>
+    <form>
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username">
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password">
+      <button type="submit">Sign In</button>
+    </form>
+  </section>
+</div>
+<footer>
+  <p>&copy; 2024 UNT Health Center. All rights reserved.</p>
+</footer>
+<script>
+  // You can add JavaScript code here if needed
+</script>
+</body>
+</html>
